@@ -1,0 +1,99 @@
+"*":
+  "atom-beautify":
+    coffeescript:
+      beautify_on_save: true
+      break_chained_methods: true
+      end_of_line: "CRLF"
+      end_with_newline: true
+      eval_code: true
+      indent_with_tabs: true
+      jslint_happy: true
+      keep_array_indentation: true
+      keep_function_indentation: true
+      preserve_newlines: false
+      space_before_conditional: false
+    general:
+      _analyticsUserId: "5aee4a9a-ec41-4bb8-b79b-666c4b7db37d"
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+      extra_liners: [
+        "head"
+        "body"
+        "/html"
+        "form"
+        "div"
+        "ul"
+        "ol"
+      ]
+      indent_inner_html: true
+    js:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      end_with_comma: true
+      end_with_newline: true
+      eval_code: true
+      indent_with_tabs: true
+      jslint_happy: true
+      keep_array_indentation: true
+      keep_function_indentation: true
+    json:
+      beautify_on_save: true
+      end_of_line: "LF"
+      end_with_comma: true
+      end_with_newline: true
+      eval_code: true
+      indent_with_tabs: true
+      jslint_happy: true
+      keep_array_indentation: true
+      keep_function_indentation: true
+  "atom-material-ui":
+    colors:
+      abaseColor: "#5c6bc0"
+      paintCursor: true
+      predefinedColor: "Indigo"
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    atomicSoftTabs: false
+    autoIndentOnPaste: false
+    fontSize: 16
+    preferredLineLength: 100
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "cf7a8e68-21f9-4ff4-83f9-f711c9d369ca"
+  "git-plus":
+    commits:
+      verboseCommits: true
+    experimental:
+      customCommands: true
+    logs: {}
+  "markdown-preview":
+    breakOnSingleNewline: true
+    useGitHubStyle: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".coffee.source":
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: true
+".litcoffee.source":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
