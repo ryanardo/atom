@@ -12,6 +12,12 @@
       keep_function_indentation: true
       preserve_newlines: false
       space_before_conditional: false
+    css:
+      align_assignments: true
+      beautify_on_save: true
+      end_with_newline: true
+      force_indentation: true
+      preserve_newlines: true
     general:
       _analyticsUserId: "5aee4a9a-ec41-4bb8-b79b-666c4b7db37d"
     html:
@@ -27,6 +33,8 @@
         "ol"
       ]
       indent_inner_html: true
+    java:
+      beautify_on_save: true
     js:
       beautify_on_save: true
       brace_style: "collapse-preserve-inline"
@@ -47,6 +55,26 @@
       jslint_happy: true
       keep_array_indentation: true
       keep_function_indentation: true
+    less:
+      beautify_on_save: true
+    markdown:
+      beautify_on_save: true
+    python:
+      beautify_on_save: true
+    ruby:
+      beautify_on_save: true
+    sql:
+      beautify_on_save: true
+    typescript:
+      beautify_on_save: true
+      end_with_comma: true
+      end_with_newline: true
+      eval_code: true
+      indent_with_tabs: true
+      keep_array_indentation: true
+      keep_function_indentation: true
+    yaml:
+      beautify_on_save: true
   "atom-material-ui":
     colors:
       abaseColor: "#5c6bc0"
