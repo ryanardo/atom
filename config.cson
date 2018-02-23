@@ -89,6 +89,7 @@
   "autocomplete-plus":
     backspaceTriggersAutocomplete: true
   core:
+    excludeVcsIgnoredPaths: false
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
@@ -110,11 +111,11 @@
     experimental:
       customCommands: true
     logs: {}
+  "linter-ui-default": {}
   "markdown-preview":
     breakOnSingleNewline: true
     useGitHubStyle: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
 ".coffee.source":
